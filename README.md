@@ -50,10 +50,8 @@ Abra o VSCode na pasta que o projeto foi criado e abra o Terminal (Terminal > Ne
 ## Minhas sugestões
 **1** Extensão Laravel Blade Snippets
 
-
 ## Instalando um nova Controller via Artisan Make
 *php artisan make:controller UsuariosController*
-
 
 # O que aprendemos até aqui?
 
@@ -69,11 +67,19 @@ Abra o VSCode na pasta que o projeto foi criado e abra o Terminal (Terminal > Ne
 
 # Laravel (Parte 2)
 
-## Objetivos
-**1.** Yelds (Masterpage)
-**2.** Preparar um formulário para cadastro de Perfil
-
 ## Minhas sugestões
-**1.** laravel-goto-controller
-**2.** Laravel goto view
+**1.** Extensão laravel-goto-controller
+**2.** Extensão Laravel goto view
+**3** Extensão dotenv
 
+# O que aprendemos até aqui?
+**1.** Criando Masterpage com Yelds
+**2.** Criando páginas que herdam a masterpage
+**3.** Preparar um formulário para cadastro de Perfil
+**4.** Criar uma Model com o comando *php artisan make:Model Perfil*
+**5.** Estrutura do arquivo .env
+**6.** Melhorar a visualização com a extensão dotenv
+**7.** Uso do {{ $variavel }} ao invés do <?php echo $variavel; ?>
+**8.** Uso do **@csrf** nas requisições dos forms
+**9.** Ajustar a engine e o charset no banco mysql
+**10** Utilização das extensões laravel-goto-controller e dotenv
