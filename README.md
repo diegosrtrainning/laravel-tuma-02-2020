@@ -67,4 +67,9 @@ Abra o VSCode na pasta que o projeto foi criado e abra o Terminal (Terminal > Ne
  8. Trabalhar com a querystring
 
 
+# Laravel (Parte 2)
+
+## Objetivos
+1. Yelds (Masterpage)
+2. Preparar um formulário para cadastro de Perfil
 
