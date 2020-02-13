@@ -11,12 +11,7 @@
 @section('conteudo')
 
 
-@if(session()->has('mensagem'))
-    <div class="alert alert-success">
-        {{ session()->get('mensagem')}}
-    </div>
-@endif
-
+@include('shared/mensagem')
 
 <a href="{{ route('criar_perfil') }}" class="btn btn-success mb-2">Adicionar</a>
 

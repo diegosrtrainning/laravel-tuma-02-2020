@@ -141,3 +141,14 @@ Abra o VSCode na pasta que o projeto foi criado e abra o Terminal (Terminal > Ne
 9. Pattern
 
 10. Session Flash
+
+
+# Aula 2 - Laravel (Parte 2)
+
+# O que aprendemos até aqui?
+
+1. Extensão Laravel Artisan
+   
+2. Criando um componente de Front na pasta shared
+   
+3. Criamos o CRUD de funcionários

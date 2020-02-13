@@ -40,7 +40,7 @@ class PerfisController extends Controller
     public function destroy(Request $request){
         Perfil::destroy($request->id);
 
-        return redirect()->route('listar_perfis')
+        return redirect()->route('listar_perfis');
 
     }
 }
