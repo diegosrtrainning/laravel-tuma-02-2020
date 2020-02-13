@@ -17,5 +17,8 @@ Route::get('/', function () {
 
 Route::get('/usuarios', 'UsuariosController@listar');
 Route::get('/usuarios/filtros', 'UsuariosController@listarComFiltros');
-Route::get('/perfis', 'PerfisController@index');
-Route::get('/perfis/create', 'PerfisController@create');
+
+Route::get('/perfis', 'PerfisController@index')->name('listar_perfis');
+Route::get('/perfis/create', 'PerfisController@create')->name('criar_perfil');
+Route::post('/perfis/create', 'PerfisController@store');
+Route::delete('/perfis/{id}', 'PerfisController@destroy');

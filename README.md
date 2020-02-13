@@ -2,7 +2,7 @@
 
 Material da aula da turma de Fevereiro de 2020 de Laravel
 
-# Laravel (Parte 1)
+# Aula 1 - Laravel (Parte 1)
 
 Laravel é um framework de desenvolvimento rápido para PHP, livre e de código aberto. Cuja o principal objetivo é permitir que você trabalhe de forma estruturada e rápida.
 
@@ -36,7 +36,7 @@ Abra o VSCode na pasta que o projeto foi criado e abra o Terminal (Terminal > Ne
 *Abra seu browser em localhost:8000*
 
 
-# Laravel (Parte 1 b)
+# Aula 1 - Laravel (Parte 1 b)
 
 ## Verbos HTTP:
 
@@ -86,7 +86,7 @@ Abra o VSCode na pasta que o projeto foi criado e abra o Terminal (Terminal > Ne
  8. Trabalhar com a querystring
 
 
-# Laravel (Parte 2)
+# Aula 1 - Laravel (Parte 2)
 
 ## Minhas sugestões
 
@@ -117,3 +117,27 @@ Abra o VSCode na pasta que o projeto foi criado e abra o Terminal (Terminal > Ne
 **9.** Ajustar a engine e o charset no banco mysql
 
 **10** Utilização das extensões laravel-goto-controller e dotenv
+
+
+# Aula 2 - Laravel (Parte 1)
+
+# O que aprendemos até aqui?
+1. php artisan make:migration create_table_perfis
+
+2. php artisan migrate
+
+3. php artisan migrate:rollback --step=1
+
+4. Criar rotas com get, post e delete
+
+5. Apelidamos as rotas
+
+6. Fontawesome
+
+7. Redirect com Route
+
+8. Utilizamos o save e query do Eloquent via Actived Record 
+
+9. Pattern
+
+10. Session Flash
