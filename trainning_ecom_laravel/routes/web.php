@@ -27,4 +27,8 @@ Route::get('/funcionarios', 'FuncionariosController@index')->name('listar_funcio
 Route::get('/funcionarios/create', 'FuncionariosController@create')->name('criar_funcionario');
 Route::post('/funcionarios/create', 'FuncionariosController@store');
 Route::delete('/funcionarios/{id}', 'FuncionariosController@destroy');
+Route::get('/funcionarios/csv', 'FuncionariosController@csv');
+Route::get('/funcionarios/email', 'FuncionariosController@email');
 
+Route::get('/autenticar', 'AutenticarController@index')->name('login');
+Route::post('/autenticar', 'AutenticarController@entrar');
